@@ -26,7 +26,15 @@ while ($r1 = mysqli_fetch_assoc($result1)) {
 </head>
 <body>
 
-<div>Welcome <?php echo $name; ?></div>
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  font-size:50px;
+  "
+  >Welcome <?php echo $name; ?>  </div>
+  <br> <center><a href="./logout.php">Logout</a></center> 
     
 </body>
 </html>

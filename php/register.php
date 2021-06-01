@@ -124,6 +124,11 @@ input[type=submit]:hover {
         <input type="text" id="fname" name="password" placeholder="Password....." required>
       </div>
     </div>
+
+    <br>
+    <center>
+    <a href="./login.php">Login</a>
+    </center>
     
     
     <div class="row" style="margin-top:25px">
