@@ -1,4 +1,4 @@
-# web-dev-classes2021
+# Web-Development-Classes-2021
 
 Login system code using 
 - HTML
