@@ -1,6 +1,6 @@
 # Web-Development-Classes-2021
 
-Login system code using 
+Login system code using:
 - HTML
 - CSS
 - JS
