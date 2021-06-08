@@ -29,7 +29,7 @@ if (isset($_POST) & !empty($_POST)) {
   box-sizing: border-box;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type=text], input[type=email],input[type=password], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -121,7 +121,7 @@ input[type=submit]:hover {
         <label for="name">Password</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="password" placeholder="Password....." required>
+        <input type="password" id="fname" name="password" placeholder="Password....." required>
       </div>
     </div>
 
