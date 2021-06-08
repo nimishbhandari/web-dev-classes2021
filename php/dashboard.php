@@ -12,6 +12,7 @@ $sql = "SELECT * FROM users WHERE `email` = '$email'";
 $result1 = mysqli_query($connection, $sql);
 while ($r1 = mysqli_fetch_assoc($result1)) {
  $name= $r1["name"];
+ 
 }
 
 ?>
