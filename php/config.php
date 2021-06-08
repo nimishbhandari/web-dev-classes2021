@@ -1,5 +1,6 @@
 <?php
-$connection = mysqli_connect("localhost", "nimish", "Nimish@03", "webclass");
+$connection = mysqli_connect("host", "name", "password", "db");
+
 if (!$connection) {
   echo "Error: Unable to connect to MySQL." . PHP_EOL;
   echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
