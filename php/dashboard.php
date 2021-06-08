@@ -5,7 +5,7 @@ require_once "./config.php";
 $name=0;
 $email=$_SESSION["email"];
 if (!isset($_SESSION["email"]) & empty($_SESSION["email"])) {
-  header("location: login");
+  header("location: login.php");
 }
 
 $sql = "SELECT * FROM users WHERE `email` = '$email'";
