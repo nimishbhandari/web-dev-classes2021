@@ -33,8 +33,7 @@ while ($r1 = mysqli_fetch_assoc($result1)) {
       </div>
       <div class="showcase-content">
         <h1>Welcome <?php echo $name;?></h1>
-        <p>To the Robotics club MMMUT Family!</p>
-        
+        <p>To the <u><b> Robotics club MMMUT</b></u> Family!</p>
       </div>
     </header> 
   </body>

@@ -44,7 +44,7 @@ img {
 
 .showcase {
   width: 100%;
-  height: 93vh;
+  height: 100vh;
   position: relative;
   background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
     center/cover;
@@ -335,7 +335,7 @@ img {
 
 @media (max-width: 960px) {
   .showcase {
-    height: 70vh;
+    height: 100vh;
   }
 
   .hide-sm {
